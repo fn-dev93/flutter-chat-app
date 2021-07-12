@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 
 class BotonAzul extends StatelessWidget {
 
-  final Function()? onPress;
+  final Function() onPress;
   final String text;
 
-  const BotonAzul({required this.onPress, required this.text});
+  const BotonAzul({ this.onPress,  this.text});
 
   @override
   Widget build(BuildContext context) {

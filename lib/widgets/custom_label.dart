@@ -9,9 +9,9 @@ class Labels extends StatelessWidget {
 
   const Labels({
     
-    required this.route, 
-    required this.question1, 
-    required this.question2});
+    this.route, 
+    this.question1, 
+    this.question2});
 
   @override
   Widget build(BuildContext context) {
